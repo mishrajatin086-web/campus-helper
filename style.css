@@ -1,0 +1,9 @@
+/* Custom subtle animations */
+.item-card {
+    transition: transform 0.2s ease, shadow 0.2s ease;
+}
+
+.item-card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+}
